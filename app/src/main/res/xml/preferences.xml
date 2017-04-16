@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/userName"
+        android:key="userName"
+        android:summary="@string/userSummery"
+        android:onClick="onPreferenceClick"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/orientation"
+        android:key="orientation"
+        android:onClick="onPreferenceClick"/>
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/beginNumber"
+        android:key="beginNumber"
+        android:summary="@string/numberSummery"
+        android:onClick="onPreferenceClick"/>
+
+</PreferenceScreen>

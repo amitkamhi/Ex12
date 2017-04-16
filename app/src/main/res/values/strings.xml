@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex12</string>
+    <string name="userName">Your name</string>
+    <string name="userSummery">%s</string>
+    <string name="orientation">Prevent orientation change</string>
+    <string name="beginNumber">The number that will start the game</string>
+    <string name="numberSummery">%s</string>
+</resources>
